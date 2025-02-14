@@ -1,0 +1,49 @@
+
+ 
+body{
+    font-size: 25px;
+    color: white;
+    font-family: fantasy;
+}
+#title{ 
+    background-color:skyblue;
+    width: 80%;
+    margin:auto;
+    text-align:center;
+    margin-top:10px;
+    padding: 2%;
+     margin-bottom: 20px;
+
+}
+
+
+ #container1 {
+     background-color:red;
+     padding: 2%;
+     margin:auto;
+     height: 400px;
+     width: 80%;
+     
+     /*need to fix contianer 2 to be more centered*/
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+
+}
+
+
+ #container2 {
+     background-color:skyblue;
+     text-align:center;
+     height: 200px;
+     width: 80%;
+     padding: 2%;
+     
+    /*fix contianer 2 text to be more centered*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
