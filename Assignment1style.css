@@ -1,0 +1,46 @@
+ /* Styling for the page css file for assignment 1 class 201
+Mariam Sanou */
+
+
+
+ /* General styling for the body */
+        html, body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 15px;
+            height: 100vh; 
+        }
+
+/* Navigation styling for the list specifiy */
+        .nav-class  {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+/* Make list items appear in one line w/t space in bw */
+        .nav-class li {
+            display: inline; 
+            margin: 0 15px; 
+        }
+/* Style for navigation links */
+        .nav-class a {
+            color: black; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+
+/* Style for the work exp. table wt border */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: auto;
+            text-align: left;
+            border: 1px solid black; 
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+
+
